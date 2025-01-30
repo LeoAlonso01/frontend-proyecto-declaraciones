@@ -6,9 +6,9 @@
 	console.log(data);
 </script>
 
-<h1>Usuarios</h1>
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<div class="container">
+	<h1>Usuarios</h1>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="/">Navbar</a>
 		<button
@@ -57,13 +57,15 @@
 				<button class="btn btn-outline-success" type="submit">Search</button>
 			</form>
 			<li class="nav-item">
-				<a class="btn btn-primary" href="/usuarios/nuevo">Nuevo</a>
+				<a class="btn btn-primary" href="/crear_usuario">Nuevo</a>
 			</li>
 		</div>
 	</div>
 </nav>
+</div>
 
-<table class="table table-dark">
+<div class="container">
+	<table class="table">
 	<thead>
 		<tr>
 			<th>Id</th>
@@ -85,3 +87,5 @@
 		{/each}
 	</tbody>
 </table>
+</div>
+
